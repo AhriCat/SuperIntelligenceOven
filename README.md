@@ -78,13 +78,13 @@ The key insight: **logit-level guidance and reward-level guidance are separate c
 pip install -e .
 
 # For quantized teachers:
-pip install -e ".[quantized]"
+pip install super_intelligence_oven -e ".[quantized]"
 
 # For diffusion teachers:
-pip install -e ".[diffusion]"
+pip install super_intelligence_oven -e ".[diffusion]"
 
 # Everything:
-pip install -e ".[all]"
+pip install super_intelligence_oven -e ".[all]"
 ```
 
 ### The `bake()` Function — One Call Setup
